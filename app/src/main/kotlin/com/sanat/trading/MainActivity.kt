@@ -320,7 +320,7 @@ fun SanatTradingApp() {
                         onStopMss = { stopMss() },
                         onClearIntraday = { clearIntraday() },
                         onClearSwing = { clearSwing() },
-                        onClearMss = { clearMss() }
+                        onClearMss = { clearMss() },
                         onResetPin = {
                             authenticated = false
                         }
